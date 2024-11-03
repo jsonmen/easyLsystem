@@ -1,4 +1,5 @@
 from typing import Callable, Dict
+
 class LSystem:
     def __init__(self, axiom: str, rules: Dict[str, str], action_on_char: Dict[str, Callable]):
         self.axiom = axiom
